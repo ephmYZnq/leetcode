@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * two_sum
+ * 1. two_sum
  * @author libochao hslibc77@gmail.com
  * @version 1.0
  * @date 5/10/21 4:46 PM
@@ -41,8 +41,8 @@ public class two_sum {
      */
 
     /**
-     * 时间复杂度：O(N)，其中 NN 是数组中的元素数量。对于每一个元素 x，我们可以 O(1)O(1) 地寻找 target - x。
-     * 空间复杂度：O(N)，其中 NN 是数组中的元素数量。主要为哈希表的开销。
+     * 时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素 x，我们可以 O(1)O(1) 地寻找 target - x。
+     * 空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。
      */
     public static int[] twoSum(int[] nums, int target) {
         int i = 0;
@@ -58,7 +58,7 @@ public class two_sum {
     }
 
     /**
-     * 时间复杂度：O(N^2)，其中 NN 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。
+     * 时间复杂度：O(N^2)，其中 N 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。
      * 空间复杂度：O(1)
      */
     public static int[] twoSum2(int[] nums, int target) {
