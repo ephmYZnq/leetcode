@@ -46,6 +46,6 @@ public class remove_elements {
     }
 
     public static void main(String[] args) {
-
+        removeElement(new int[]{1, 1}, 1);
     }
 }
