@@ -41,11 +41,22 @@ public class remove_elements {
      * 0 <= val <= 100
      */
 
+    /**
+     * 时间复杂度：O(n)，其中 n 是数组的长度。快指针和慢指针最多各移动 n 次。
+     * 空间复杂度：O(1)。只需要使用常数的额外空间。
+     */
     public static int removeElement(int[] nums, int val) {
-        return 0;
+        int ans = 0;
+        for (int num : nums) {
+            if (num != val) {
+                nums[ans] = num;
+                ans++;
+            }
+        }
+        return ans;
     }
 
     public static void main(String[] args) {
-        removeElement(new int[]{1, 1}, 1);
+        System.out.println(removeElement(new int[]{1, 1, 2, 2}, 1));
     }
 }
