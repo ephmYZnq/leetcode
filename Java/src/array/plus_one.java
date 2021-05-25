@@ -31,4 +31,10 @@ public class plus_one {
      * 1 <= digits.length <= 100
      * 0 <= digits[i] <= 9
      */
+
+
+
+    public static void main(String[] args) {
+
+    }
 }
