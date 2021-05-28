@@ -31,6 +31,6 @@ public class search_insert {
      */
 
     public static void main(String[] args) {
-
+        System.out.println();
     }
 }
