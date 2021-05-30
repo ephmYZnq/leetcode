@@ -78,18 +78,18 @@ public class two_sum {
         int target = 9;
         int[] res = twoSum(nums, target);
         System.out.println(Arrays.toString(res));
-        System.out.println("---------------------------------------------");
+        System.out.println("--------------------------------------------");
 
         int[] nums1 = {3,2,4};
         int target1 = 6;
         int[] res1 = twoSum2(nums1, target1);
         System.out.println(Arrays.toString(res1));
-        System.out.println("---------------------------------------------");
+        System.out.println("--------------------------------------------");
 
         int[] nums2 = {3,3};
         int target2 = 6;
         int[] res2 = twoSum(nums2, target2);
         System.out.println(Arrays.toString(res2));
-        System.out.println("---------------------------------------------");
+        System.out.println("--------------------------------------------");
     }
 }
