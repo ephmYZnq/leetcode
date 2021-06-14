@@ -90,6 +90,6 @@ public class two_sum {
         int target2 = 6;
         int[] res2 = twoSum(nums2, target2);
         System.out.println(Arrays.toString(res2));
-        System.out.println("---------------------------------------");
+        System.out.println("--------------------------------------");
     }
 }
