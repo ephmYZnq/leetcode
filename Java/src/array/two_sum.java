@@ -84,7 +84,7 @@ public class two_sum {
         int target1 = 6;
         int[] res1 = twoSum2(nums1, target1);
         System.out.println(Arrays.toString(res1));
-        System.out.println("--------------------------------------");
+        System.out.println("-------------------------------------");
 
         int[] nums2 = {3,3};
         int target2 = 6;
