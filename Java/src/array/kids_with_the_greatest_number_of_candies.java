@@ -9,7 +9,7 @@ import java.util.List;
  * 
  * @author libochao hslibc77@gmail.com
  * @version 1.0
- * @date 6/17/21 3:50 PM
+ * @date 6/17/21 5:04 PM
  **/
 public class kids_with_the_greatest_number_of_candies {
 
