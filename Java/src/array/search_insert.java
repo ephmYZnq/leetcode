@@ -43,6 +43,5 @@ public class search_insert {
         System.out.println(solution(new int[]{1,3,5,6}, 5));
         System.out.println(solution(new int[]{1,3,5,6}, 2));
         System.out.println(solution(new int[]{1,3,5,6}, 7));
-        System.out.println(solution(new int[]{1,3,5,6}, 0));
     }
 }
