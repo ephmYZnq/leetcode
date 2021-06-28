@@ -22,7 +22,7 @@ public class GenerateMosaicHeadImg {
     // 填充比率，越接近1，有色色块出现几率越高
     private final static double RADIO = 0.60;
     // 每边矩形数量（建议>=5）
-    private final static int BLOCK_NUM = 9;
+    private final static int BLOCK_NUM = 7;
     // 颜色差值评价值（越大颜色越鲜艳）
     private final static int COLOR_DIFF_EVALUATION = 100;
     // 基色阶数极限
@@ -31,7 +31,7 @@ public class GenerateMosaicHeadImg {
     private final static String DIR = "C://headImg/";
 
     public static void main(String[] args) throws IOException {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 100; i++) {
             //得到图片缓冲区
             BufferedImage bi = new BufferedImage
                     (IMG_WIDTH, IMG_HEIGHT, BufferedImage.TYPE_INT_RGB);
