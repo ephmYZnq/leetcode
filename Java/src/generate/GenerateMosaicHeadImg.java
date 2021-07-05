@@ -31,7 +31,7 @@ public class GenerateMosaicHeadImg {
     private final static String DIR = "C://headImg/";
 
     public static void main(String[] args) throws IOException {
-        for (int i = 0; i < 98; i++) {
+        for (int i = 0; i < 96; i++) {
             //得到图片缓冲区
             BufferedImage bi = new BufferedImage
                     (IMG_WIDTH, IMG_HEIGHT, BufferedImage.TYPE_INT_RGB);
